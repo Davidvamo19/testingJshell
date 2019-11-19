@@ -1,4 +1,5 @@
 # Repository for testing jshell
+
 jshell> int n=68;
 n ==> 68
 
@@ -22,3 +23,10 @@ jshell> C=n;
 |  C=n;
 |  ^
 
+### After errors fixed
+
+jshell> /edit 8
+b ==> 68
+
+jshell> /edit 9
+c ==> 'D'
